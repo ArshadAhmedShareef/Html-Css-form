@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your table Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- We use the form with in  a div to make it's position at center  -->
+    <div class="form-div">
+    <form class="form-main">
+        <h1 class="form-heading">Book Your Table</h1>
+        <!-- form-fields class is used to make the lable and input field to be flex in column direction .here we didnt use the display block css property -->
+        <div class="form-fields">
+         <label for="name">Yourname</label>
+         <input type="text" placeholder="Name" required>
+        </div>
+
+        <div class="form-fields">
+            <label for="email">Youremail</label>
+            <input type="email" placeholder="Email" required>
+           </div>
+
+           <div class="form-fields">
+            <label for="tel">Telephone Number</label>
+            <input type="tel" placeholder="Number" required>
+           </div>
+
+           <div class="form-fields">
+            <label for="date">Select the date</label>
+            <input type="date" placeholder="Date" required>
+           </div>
+
+
+           <div class="form-fields">
+            <label for="Time">Select the time</label>
+            <input type="time" placeholder="Time" required>
+           </div>
+
+           <div class="form-fields">
+            <label for="number">Number of guest</label>
+            <input type="number" placeholder="No.of guest" required>
+           </div>
+
+           <div class="form-fields">
+            <label for="comments">Special Requests</label>
+            <textarea name="comments" cols="50" rows="5"> </textarea>
+           </div>
+           
+           <!-- here we use button in a div to make it's position at center -->
+
+           <div class="form-button-div">
+            <button class="form-button">Submit</button>
+           </div>
+    </form>
+    </div>
+</body>
+</html>
